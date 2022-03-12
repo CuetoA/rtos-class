@@ -1,0 +1,19 @@
+config EJEMPLO___I
+    bool "Ex 1 'Helo World' programm"
+    default y
+    help
+      'Hello world' is selected (diap 8)
+
+config EJEMPLO__II
+    bool "Ex 2 scanf numbers and print operation"
+    default n
+    help
+      Just print and scan numbers (diap 11)
+
+config EJEMPLO_III
+    bool "Ex 3 type format show (diap 20)"
+    default n
+    help
+      This program has acces to ULONG_MAX INT_MIN INT_MAX UINT_MAX LONG_MAX macros in order to show their specs
+
+
